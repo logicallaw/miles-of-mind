@@ -1,0 +1,152 @@
+@font-face {
+    font-family: 'NanumSquareNeo';
+    src: url('../assets/nanum-square/NanumSquareNeo-Variable.ttf') format('woff2');
+    font-weight: 300 900;
+}
+
+@font-face {
+    font-family: 'Pretendard';
+    src: url('../assets/pretendard/Pretendard-Thin.otf') format('opentype');
+    font-weight: 100;
+}
+
+@font-face {
+    font-family: 'Pretendard';
+    src: url('../assets/pretendard/Pretendard-ExtraLight.otf') format('opentype');
+    font-weight: 200;
+}
+
+@font-face {
+    font-family: 'Pretendard';
+    src: url('../assets/pretendard/Pretendard-Light.otf') format('opentype');
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: 'Pretendard';
+    src: url('../assets/pretendard/Pretendard-Regular.otf') format('opentype');
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'Pretendard';
+    src: url('../assets/pretendard/Pretendard-Medium.otf') format('opentype');
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: 'Pretendard';
+    src: url('../assets/pretendard/Pretendard-SemiBold.otf') format('opentype');
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: 'Pretendard';
+    src: url('../assets/pretendard/Pretendard-Bold.otf') format('opentype');
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: 'Pretendard';
+    src: url('../assets/pretendard/Pretendard-ExtraBold.otf') format('opentype');
+    font-weight: 800;
+}
+
+@font-face {
+    font-family: 'Pretendard';
+    src: url('../assets/pretendard/Pretendard-Black.otf') format('opentype');
+    font-weight: 900;
+}
+
+* {
+    font-family: 'NanumSquareNeo',
+        -apple-system, BlinkMacSystemFont,
+        /* macOS, iOS */
+        'Segoe UI',
+        /* Windows */
+        Roboto,
+        /* Android, Chrome OS */
+        'Helvetica Neue', Helvetica,
+        /* macOS 구버전 */
+        Arial,
+        /* 대부분 OS에 설치됨 */
+        sans-serif;
+}
+
+header {
+    margin-left: 50px;
+    margin-right: 50px
+}
+
+main {
+    height: 700px;
+}
+
+
+iframe {
+    border-style: none;
+    height: 100%;
+}
+
+footer {
+    margin: 50px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-links {
+    display: flex;
+    gap: 20px;
+}
+
+.navbar-brand {
+    text-decoration: none;
+    color: black;
+}
+
+.navbar-link {
+    text-decoration: none;
+    font-size: 15px;
+    color: grey;
+}
+
+.navbar-link:hover {
+    border-bottom: 3px solid #007bff;
+}
+
+
+.about {
+    text-align: left;
+    margin-left: 70px;
+}
+
+p {
+    font-family: 'Pretendard',
+        -apple-system, BlinkMacSystemFont,
+        /* macOS, iOS */
+        'Segoe UI',
+        /* Windows */
+        Roboto,
+        /* Android, Chrome OS */
+        'Helvetica Neue', Helvetica,
+        /* macOS 구버전 */
+        Arial,
+        /* 대부분 OS에 설치됨 */
+        sans-serif;
+    font-weight: 400;
+    line-height: 1.8;
+    margin: 10px;
+}
+
+.introduction {
+    text-align: center;
+}
+
+#default-image {
+    height: 500px;
+    width: 400px;
+}
