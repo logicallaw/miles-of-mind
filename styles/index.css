@@ -1,60 +1,60 @@
 @font-face {
     font-family: 'NanumSquareNeo';
-    src: url('../assets/nanum-square/NanumSquareNeo-Variable.ttf') format('woff2');
+    src: url('../assets/fonts/nanum-square/NanumSquareNeo-Variable.ttf') format('woff2');
     font-weight: 300 900;
 }
 
 @font-face {
     font-family: 'Pretendard';
-    src: url('../assets/pretendard/Pretendard-Thin.otf') format('opentype');
+    src: url('../assets/fonts/pretendard/Pretendard-Thin.otf') format('opentype');
     font-weight: 100;
 }
 
 @font-face {
     font-family: 'Pretendard';
-    src: url('../assets/pretendard/Pretendard-ExtraLight.otf') format('opentype');
+    src: url('../assets/fonts/pretendard/Pretendard-ExtraLight.otf') format('opentype');
     font-weight: 200;
 }
 
 @font-face {
     font-family: 'Pretendard';
-    src: url('../assets/pretendard/Pretendard-Light.otf') format('opentype');
+    src: url('../assets/fonts/pretendard/Pretendard-Light.otf') format('opentype');
     font-weight: 300;
 }
 
 @font-face {
     font-family: 'Pretendard';
-    src: url('../assets/pretendard/Pretendard-Regular.otf') format('opentype');
+    src: url('../assets/fonts/pretendard/Pretendard-Regular.otf') format('opentype');
     font-weight: 400;
 }
 
 @font-face {
     font-family: 'Pretendard';
-    src: url('../assets/pretendard/Pretendard-Medium.otf') format('opentype');
+    src: url('../assets/fonts/pretendard/Pretendard-Medium.otf') format('opentype');
     font-weight: 500;
 }
 
 @font-face {
     font-family: 'Pretendard';
-    src: url('../assets/pretendard/Pretendard-SemiBold.otf') format('opentype');
+    src: url('../assets/fonts/pretendard/Pretendard-SemiBold.otf') format('opentype');
     font-weight: 600;
 }
 
 @font-face {
     font-family: 'Pretendard';
-    src: url('../assets/pretendard/Pretendard-Bold.otf') format('opentype');
+    src: url('../assets/fonts/pretendard/Pretendard-Bold.otf') format('opentype');
     font-weight: 700;
 }
 
 @font-face {
     font-family: 'Pretendard';
-    src: url('../assets/pretendard/Pretendard-ExtraBold.otf') format('opentype');
+    src: url('../assets/fonts/pretendard/Pretendard-ExtraBold.otf') format('opentype');
     font-weight: 800;
 }
 
 @font-face {
     font-family: 'Pretendard';
-    src: url('../assets/pretendard/Pretendard-Black.otf') format('opentype');
+    src: url('../assets/fonts/pretendard/Pretendard-Black.otf') format('opentype');
     font-weight: 900;
 }
 
