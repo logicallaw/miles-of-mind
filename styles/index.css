@@ -1,4 +1,9 @@
 @font-face {
+    font-family: 'TossFaceMac';
+    src: url('../assets/fonts/toss/TossFaceFontMac.ttf');
+}
+
+@font-face {
     font-family: 'NanumSquareNeo';
     src: url('../assets/fonts/nanum-square/NanumSquareNeo-Variable.ttf') format('woff2');
     font-weight: 300 900;
@@ -73,6 +78,36 @@
         sans-serif;
 }
 
+.toss-face {
+    font-family: 'TossFaceMac',
+        -apple-system, BlinkMacSystemFont,
+        /* macOS, iOS */
+        'Segoe UI',
+        /* Windows */
+        Roboto,
+        /* Android, Chrome OS */
+        'Helvetica Neue', Helvetica,
+        /* macOS 구버전 */
+        Arial,
+        /* 대부분 OS에 설치됨 */
+        sans-serif;
+}
+
+.text {
+    font-family: 'Pretendard',
+        -apple-system, BlinkMacSystemFont,
+        /* macOS, iOS */
+        'Segoe UI',
+        /* Windows */
+        Roboto,
+        /* Android, Chrome OS */
+        'Helvetica Neue', Helvetica,
+        /* macOS 구버전 */
+        Arial,
+        /* 대부분 OS에 설치됨 */
+        sans-serif;
+}
+
 header {
     margin-left: 50px;
     margin-right: 50px
@@ -125,7 +160,7 @@ footer {
 }
 
 p {
-    font-family: 'Pretendard',
+    font-family: 'NanumSquareNeo',
         -apple-system, BlinkMacSystemFont,
         /* macOS, iOS */
         'Segoe UI',
@@ -149,4 +184,10 @@ p {
 #default-image {
     height: 500px;
     width: 400px;
+}
+
+hr {
+    width: 80%;
+    margin: 10px auto;
+    border-top: 1px solid #efefef;
 }
