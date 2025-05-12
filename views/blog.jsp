@@ -5,8 +5,9 @@
  For full license text, see the LICENSE file in the root directory or at
  https://opensource.org/license/mit
  Author: Junho Kim
- Latest Updated Date: 2025-03-31
- -->
+ Latest Updated Date: 2025-05-12
+ --> 
+<%@ page contentType="text/html; charset=UTF-8" %>
 <!DOCTYPE html>
 
 <head>
@@ -20,14 +21,14 @@
 <body>
     <header>
         <nav class="navbar">
-            <a class="navbar-brand" href="index.html">
+            <a class="navbar-brand" href="index.jsp">
                 <h5>Junho Kim</h5>
             </a>
             <div class="navbar-links">
-                <a class="navbar-link" href="about.html">
+                <a class="navbar-link" href="about.jps">
                     About
                 </a>
-                <a class="navbar-link" href="blog.html">
+                <a class="navbar-link" href="blog.jsp">
                     Blog
                 </a>
                 <a class="navbar-link">
@@ -84,7 +85,7 @@
     </main>
     <footer>
         <a class="toss-face floating setting">⚒</a>
-        <a class="toss-face floating writting" href="new-post.html">✏️</a>
+        <a class="toss-face floating writting" href="new-post.jsp">✏️</a>
         <a class="toss-face floating searching">🔍</a>
         <h6>Copyright &copy; 2025 Junho Kim</h6>
     </footer>
