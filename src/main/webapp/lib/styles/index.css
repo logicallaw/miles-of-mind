@@ -1,0 +1,93 @@
+/*
+ This is file of the project miles-of-mind
+ Licensed under the MIT License.
+ Copyright (c) 2025 Junho Kim
+ For full license text, see the LICENSE file in the root directory or at
+ https://opensource.org/license/mit
+ Author: Junho Kim
+ Latest Updated Date: 2025-03-31
+*/
+
+header {
+    margin-left: 50px;
+    margin-right: 50px
+}
+
+main {
+    height: 700px;
+}
+
+
+iframe {
+    border-style: none;
+    height: 100%;
+}
+
+footer {
+    margin: 50px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-links {
+    display: flex;
+    gap: 20px;
+}
+
+.navbar-brand {
+    text-decoration: none;
+    color: black;
+}
+
+.navbar-link {
+    text-decoration: none;
+    font-size: 15px;
+    color: grey;
+}
+
+.navbar-link:hover {
+    border-bottom: 3px solid #007bff;
+}
+
+
+.about {
+    text-align: left;
+    margin-left: 70px;
+}
+
+p {
+    font-family: 'NanumSquareNeo',
+        -apple-system, BlinkMacSystemFont,
+        /* macOS, iOS */
+        'Segoe UI',
+        /* Windows */
+        Roboto,
+        /* Android, Chrome OS */
+        'Helvetica Neue', Helvetica,
+        /* macOS 구버전 */
+        Arial,
+        /* 대부분 OS에 설치됨 */
+        sans-serif;
+    font-weight: 400;
+    line-height: 1.8;
+    margin: 10px;
+}
+
+.introduction {
+    text-align: center;
+}
+
+#default-image {
+    height: 500px;
+    width: 400px;
+}
+
+hr {
+    width: 80%;
+    margin: 10px auto;
+    border-top: 1px solid #efefef;
+}

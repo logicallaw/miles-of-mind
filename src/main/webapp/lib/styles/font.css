@@ -1,0 +1,109 @@
+@font-face {
+    font-family: 'TossFaceMac';
+    src: url('../assets/fonts/toss/TossFaceFontMac.ttf');
+}
+
+@font-face {
+    font-family: 'NanumSquareNeo';
+    src: url('../assets/fonts/nanum-square/NanumSquareNeo-Variable.ttf') format('woff2');
+    font-weight: 300 900;
+}
+
+@font-face {
+    font-family: 'Pretendard';
+    src: url('../assets/fonts/pretendard/Pretendard-Thin.otf') format('opentype');
+    font-weight: 100;
+}
+
+@font-face {
+    font-family: 'Pretendard';
+    src: url('../assets/fonts/pretendard/Pretendard-ExtraLight.otf') format('opentype');
+    font-weight: 200;
+}
+
+@font-face {
+    font-family: 'Pretendard';
+    src: url('../assets/fonts/pretendard/Pretendard-Light.otf') format('opentype');
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: 'Pretendard';
+    src: url('../assets/fonts/pretendard/Pretendard-Regular.otf') format('opentype');
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'Pretendard';
+    src: url('../assets/fonts/pretendard/Pretendard-Medium.otf') format('opentype');
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: 'Pretendard';
+    src: url('../assets/fonts/pretendard/Pretendard-SemiBold.otf') format('opentype');
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: 'Pretendard';
+    src: url('../assets/fonts/pretendard/Pretendard-Bold.otf') format('opentype');
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: 'Pretendard';
+    src: url('../assets/fonts/pretendard/Pretendard-ExtraBold.otf') format('opentype');
+    font-weight: 800;
+}
+
+@font-face {
+    font-family: 'Pretendard';
+    src: url('../assets/fonts/pretendard/Pretendard-Black.otf') format('opentype');
+    font-weight: 900;
+}
+
+* {
+    font-family: 'NanumSquareNeo',
+        -apple-system, BlinkMacSystemFont,
+        /* macOS, iOS */
+        'Segoe UI',
+        /* Windows */
+        Roboto,
+        /* Android, Chrome OS */
+        'Helvetica Neue', Helvetica,
+        /* macOS 구버전 */
+        Arial,
+        /* 대부분 OS에 설치됨 */
+        sans-serif;
+}
+
+.toss-face {
+    font-family: 'TossFaceMac',
+        -apple-system, BlinkMacSystemFont,
+        /* macOS, iOS */
+        'Segoe UI',
+        /* Windows */
+        Roboto,
+        /* Android, Chrome OS */
+        'Helvetica Neue', Helvetica,
+        /* macOS 구버전 */
+        Arial,
+        /* 대부분 OS에 설치됨 */
+        sans-serif;
+}
+
+.text {
+    font-family: 'Pretendard',
+        -apple-system, BlinkMacSystemFont,
+        /* macOS, iOS */
+        'Segoe UI',
+        /* Windows */
+        Roboto,
+        /* Android, Chrome OS */
+        'Helvetica Neue', Helvetica,
+        /* macOS 구버전 */
+        Arial,
+        /* 대부분 OS에 설치됨 */
+        sans-serif;
+}
